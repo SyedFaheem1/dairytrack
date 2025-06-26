@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DairyTrack | Welcome</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🐄 Welcome to DairyTrack</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="farm.html">Our Farm</a>
+        <a href="environment.html">Animal Care</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>👨‍🌾 My Journey</h2>
+        <p>
+          Hello! I'm <strong>Syed Faheem</strong>, a computer science student
+          and young dairy entrepreneur. I started this journey with just two
+          cows and a vision to combine
+          <strong>technology with traditional dairy</strong> farming. Today, I'm
+          tracking income, managing animals, and creating impact through clean,
+          healthy milk.
+        </p>
+        <img src="images/faheem.jpeg" alt="Syed Faheem" class="banner-img" />
+      </section>
+
+      <section>
+        <h2>💡 The DairyTrack Startup</h2>
+        <p>
+          From tracking milk and income to animal health, I built this platform
+          to promote transparency, productivity, and trust in local dairy
+          businesses. This is just the beginning!
+        </p>
+      </section>
+
+      <section>
+        <h2>🐮 My First Dairy Partners</h2>
+        <div class="animal-gallery">
+          <img src="images/cow1.jpg" alt="Cow 1" class="small-img" />
+          <img src="images/cow2.jpg" alt="Cow 2" class="small-img" />
+          <img src="images/cow3.jpg" alt="Cow 3" class="small-img" />
+        </div>
+      </section>
+
+      <section id="milk-calculator">
+        <h2>🧮 Daily Milk Production & Income</h2>
+        <p id="total-milk">Total Milk: -- liters</p>
+        <p id="total-income">Estimated Income (PKR 150/liter): -- PKR</p>
+      </section>
+
+      <section id="monthly-calculator">
+        <h2>📅 Monthly Production & Estimated Income</h2>
+        <p id="monthly-milk">Monthly Milk: -- liters</p>
+        <p id="monthly-income">Monthly Income: -- PKR</p>
+      </section>
+
+      <section id="chart-section">
+        <h2>📊 Weekly Milk & Income Chart</h2>
+        <canvas id="milkChart" width="400" height="200"></canvas>
+      </section>
+    </main>
+    <section>
+      <h2>📞 Contact & Order</h2>
+      <p>📱 WhatsApp: +92-328-7800772</p>
+      <p>📧 Email: sf439627@gmail.com</p>
+    </section>
+
+    <footer>
+      <p>© 2025 DairyTrack by Syed Faheem</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Cow 1",
+    "type": "Cow",
+    "milkPerDay": 8,
+    "age": 1,
+    "health": "Excellent"
+  },
+  {
+    "name": "Cow 2",
+    "type": "Cow",
+    "milkPerDay": 8,
+    "age": 2,
+    "health": "Good"
+  },
+  {
+    "name": "Cow3",
+    "type": "Cow",
+    "milkPerDay": 5,
+    "age": 3,
+    "health": "Average"
+  }
+]
